@@ -1,0 +1,54 @@
+Magma V2.29-4     Mon Jul 13 2026 22:17:20 on mordell  [Seed = 4138195]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "palindromic_curve.m"
+
+Loading "MWS_and_saturation.m"
+Loading "Classical_Chabauty/coleman.m"
+Loading "Classical_Chabauty/auxpolys.m"
+Loading "Classical_Chabauty/coho.m"
+Loading "Classical_Chabauty/froblift.m"
+Loading "Classical_Chabauty/reductions.m"
+Loading "Classical_Chabauty/singleintegrals.m"
+Loading "Classical_Chabauty/applications.m"
+============================================================
+Height regulator = 0.131752999886946078794753574020
+Rank upper bound = 2
+#J(Q)_tors divides 16
+============================================================
+Running effective Chabauty at p = 19
+Main modulus = 273
+Auxiliary primes (q) used = [ 11, 13, 23, 37, 43, 113 ]
+#vanishing_differentials = 1
+Known rational points = 12 ; Chabauty candidates = 24
+Chabauty residue disks: known = 12 ; MWS targets = 12
+MWS target classes: [ <8, 18, 1>, <8, 1, 1>, <13, 11, 1>, <13, 8, 1>, <7, 14, 
+1>, <7, 5, 1>, <11, 17, 1>, <11, 2, 1>, <3, 17, 1>, <3, 2, 1>, <12, 12, 1>, <12,
+7, 1> ]
+#C(F_p) = 24 ; #J(F_p) = 8736 ; factorization = [ <2, 5>, <3, 1>, <7, 1>, <13, 
+1> ]
+Saturation for ell in [ 3, 7, 13 ]
+ell = 3 : saturated; primes used = [ 19, 127 ]
+ell = 7 : saturated; primes used = [ 11, 17 ]
+ell = 13 : saturated; primes used = [ 13, 19 ]
+============================================================
+Mordell-Weil sieve: p = 19 , m = 273
+Number of target residue classes: 12
+Initial survivor counts: [ 273, 273, 273, 273, 273, 273, 273, 273, 273, 273, 
+273, 273 ]
+q = 11 , d = 7 : [ 273, 273, 273, 273, 273, 273, 273, 273, 273, 273, 273, 273 ]
+-> [ 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195 ]
+q = 13 , d = 13 : [ 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195 ]
+-> [ 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165 ]
+q = 23 , d = 21 : [ 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165 ]
+-> [ 55, 55, 55, 55, 110, 110, 110, 110, 55, 55, 55, 55 ]
+q = 37 , d = 13 : [ 55, 55, 55, 55, 110, 110, 110, 110, 55, 55, 55, 55 ]
+-> [ 0, 0, 55, 55, 110, 110, 110, 110, 55, 55, 0, 0 ]
+q = 43 , d = 39 : [ 0, 0, 55, 55, 110, 110, 110, 110, 55, 55, 0, 0 ]
+-> [ 0, 0, 30, 30, 100, 100, 100, 100, 30, 30, 0, 0 ]
+q = 113 , d = 273 : [ 0, 0, 30, 30, 100, 100, 100, 100, 30, 30, 0, 0 ]
+-> [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+Final survivor counts: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+SUCCESS: all MWS target residue classes are ruled out.
+
+Total time: 57.909 seconds, Total memory usage: 64.12MB
