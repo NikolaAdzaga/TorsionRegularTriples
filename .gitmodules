@@ -1,0 +1,3 @@
+[submodule "Classical_Chabauty"]
+	path = Classical_Chabauty
+	url = https://github.com/jtuitman/Coleman.git
