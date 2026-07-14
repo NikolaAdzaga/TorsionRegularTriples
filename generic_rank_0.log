@@ -1,0 +1,11 @@
+Magma V2.29-4     Tue Jul 14 2026 09:26:54 on mordell  [Seed = 1700460845]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "generic_rank_0.m"
+
+GT condition at k = 14: true
+E_14 = Elliptic Curve defined by y^2 = x^3 + 64533196*x^2 + 1041133338416640*x 
+over Rational Field
+Rank bounds for E_14: 0 0
+
+Total time: 0.130 seconds, Total memory usage: 32.09MB

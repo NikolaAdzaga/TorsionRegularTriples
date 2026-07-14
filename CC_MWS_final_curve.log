@@ -1,0 +1,143 @@
+Magma V2.29-4     Tue Jul 14 2026 09:27:40 on mordell  [Seed = 4240662777]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "CC_MWS_final_curve.m"
+
+Loading "Classical_Chabauty/coleman.m"
+Loading "Classical_Chabauty/auxpolys.m"
+Loading "Classical_Chabauty/coho.m"
+Loading "Classical_Chabauty/froblift.m"
+Loading "Classical_Chabauty/reductions.m"
+Loading "Classical_Chabauty/singleintegrals.m"
+Loading "Classical_Chabauty/applications.m"
+Loading "MWS_and_saturation.m"
+============================================================
+Basic information
+Genus = 3
+Bad reduction primes = { 2, 3 }
+Discriminant factorization = [ <2, 62>, <3, 4> ]
+Rational points found up to height 10000 : 8
+(1 : -4 : 0)
+(1 : 4 : 0)
+(0 : -1 : 1)
+(0 : 1 : 1)
+(1 : -1 : 1)
+(1 : 1 : 1)
+(1 : -4 : 2)
+(1 : 4 : 2)
+Rank upper bound = 2
+============================================================
+Jacobian structures at good primes p <= 100
+p = 5 #J(F_p) = 480 structure = [ 4, 120 ]
+p = 7 #J(F_p) = 528 structure = [ 4, 132 ]
+p = 11 #J(F_p) = 1856 structure = [ 4, 464 ]
+p = 13 #J(F_p) = 3072 structure = [ 2, 2, 16, 48 ]
+p = 17 #J(F_p) = 9216 structure = [ 2, 4, 12, 96 ]
+p = 19 #J(F_p) = 6208 structure = [ 4, 1552 ]
+p = 23 #J(F_p) = 12288 structure = [ 2, 4, 8, 192 ]
+p = 29 #J(F_p) = 31616 structure = [ 4, 7904 ]
+p = 31 #J(F_p) = 25872 structure = [ 28, 924 ]
+p = 37 #J(F_p) = 57024 structure = [ 2, 6, 12, 396 ]
+p = 41 #J(F_p) = 91520 structure = [ 2, 2, 4, 5720 ]
+p = 43 #J(F_p) = 87744 structure = [ 4, 21936 ]
+p = 47 #J(F_p) = 88960 structure = [ 2, 2, 4, 5560 ]
+p = 53 #J(F_p) = 200448 structure = [ 4, 50112 ]
+p = 59 #J(F_p) = 194656 structure = [ 4, 48664 ]
+p = 61 #J(F_p) = 212160 structure = [ 2, 2, 4, 13260 ]
+p = 67 #J(F_p) = 330912 structure = [ 3, 12, 9192 ]
+p = 71 #J(F_p) = 433664 structure = [ 2, 4, 88, 616 ]
+p = 73 #J(F_p) = 506880 structure = [ 2, 2, 2, 2, 8, 3960 ]
+p = 79 #J(F_p) = 478800 structure = [ 4, 119700 ]
+p = 83 #J(F_p) = 665472 structure = [ 4, 166368 ]
+p = 89 #J(F_p) = 564480 structure = [ 2, 2, 84, 1680 ]
+p = 97 #J(F_p) = 940800 structure = [ 2, 2, 56, 4200 ]
+Torsion bound from these primes: 16
+============================================================
+Mordell-Weil subgroup
+P0 = (1 : -4 : 0)
+P1 = (0 : -1 : 1)
+P2 = (1 : -1 : 1)
+Regulator det(<D_i,D_j>) = 0.0610119849969039939009512125444
+============================================================
+Effective Chabauty at p = 7
+Known rational Coleman points = 8
+Number of vanishing differentials = 1
+Number of Chabauty candidates = 12
+Chabauty residue disks: known = 8 ; MWS targets = 4
+MWS target residue classes = [ <2, 4, 1>, <2, 3, 1>, <5, 5, 1>, <5, 2, 1> ]
+============================================================
+Saturation for primes dividing m = 33
+ell = 3 : saturated; primes used = [ 5, 7 ]
+ell = 11 : saturated; primes used = [ 7, 193 ]
+============================================================
+Mordell-Weil sieve: p = 7 , m = 33
+Number of target residue classes: 4
+Initial survivor counts: [ 33, 33, 33, 33 ]
+q = 31 , d = 33 : [ 33, 33, 33, 33 ]
+-> [ 11, 11, 11, 11 ]
+q = 37 , d = 33 : [ 11, 11, 11, 11 ]
+-> [ 0, 0, 0, 0 ]
+Final survivor counts: [ 0, 0, 0, 0 ]
+SUCCESS: all MWS target residue classes are ruled out.
+============================================================
+Conclusion
+Effective Chabauty handles the residue disks containing the known rational 
+points.
+The Mordell-Weil sieve rules out the remaining residue classes modulo 7
+Thus the rational points found above are all rational points on C.
+
+
+Going back to possible values of k, we get the following.
+(0 : -1 : 1) gives k = 0
+(0 : 1 : 1) gives k = -1/2 , s = 0
+(1 : -1 : 1) gives k = -2/3 , s = -3/2
+(1 : 1 : 1) gives k = -1/2 , s = -2
+(1 : -4 : 2) gives k = -3/4 , s = -2/3
+(1 : 4 : 2) gives k = -1 , s = -1/2
+Positive integer k solutions: []
+Moreover, most of the other values also degenerate the starting triple into a 
+pair:
+P = (0 : -1 : 1) k = 0 triple = [ 1, 0, 1 ]
+degenerate? true
+P = (0 : 1 : 1) k = -1/2 triple = [ 1, 1/2, 1/2 ]
+degenerate? true
+P = (1 : -1 : 1) k = -2/3 triple = [ 1, 8/9, 5/9 ]
+degenerate? false
+P = (1 : 1 : 1) k = -1/2 triple = [ 1, 1/2, 1/2 ]
+degenerate? true
+P = (1 : -4 : 2) k = -3/4 triple = [ 1, 9/8, 5/8 ]
+degenerate? false
+P = (1 : 4 : 2) k = -1 triple = [ 1, 2, 1 ]
+degenerate? true
+Looking at the two values of k that don't degenerate our starting triple,
+         we get 2x6 torsion over Q(i), not over Q:
+k = -2/3
+torsion over Q =  
+Abelian Group isomorphic to Z/2 + Z/2
+Defined on 2 generators
+Relations:
+    2*T_over_Q.1 = 0
+    2*T_over_Q.2 = 0
+torsion over Q(i) = 
+Abelian Group isomorphic to Z/2 + Z/6
+Defined on 2 generators
+Relations:
+    2*T.1 = 0
+    6*T.2 = 0
+
+k = -3/4
+torsion over Q =  
+Abelian Group isomorphic to Z/2 + Z/2
+Defined on 2 generators
+Relations:
+    2*T_over_Q.1 = 0
+    2*T_over_Q.2 = 0
+torsion over Q(i) = 
+Abelian Group isomorphic to Z/2 + Z/6
+Defined on 2 generators
+Relations:
+    2*T.1 = 0
+    6*T.2 = 0
+
+
+Total time: 13.140 seconds, Total memory usage: 105.84MB
