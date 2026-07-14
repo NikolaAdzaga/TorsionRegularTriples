@@ -1,10 +1,11 @@
 // Chabauty-Coleman + Mordell-Weil sieve for
 // C: y^2 = x^8 - 4*x^7 + 4*x^6 - 28*x^5 + 70*x^4 - 28*x^3 + 4*x^2 - 4*x + 1
 //
-// Driver script: performs the same computation as
-// quiet_simplified_CC_MWS_with_saturation_p19.m, but loads the sieve and
-// saturation functions from MWS_and_saturation.m instead of defining them
-// inline.
+// There is also .log file with the same name.
+
+// This computation loads the sieve and
+// saturation functions from MWS_and_saturation.m.
+//
 //
 // Saturation note:
 //   For genus 3, Magma's built-in Saturation([D1,D2], ell) is not available.
@@ -91,6 +92,7 @@ target_coords, target_keys := ChabautyTargetResidueCoords(L, Qpoints, ChabautyPr
 
 // A target class at infinity would be dropped from target_coords above,
 // and the final SUCCESS would then be unjustified.
+// This is relevant only if someone tries to use this code for other curves.
 assert #target_coords eq #target_keys;
 
 print "MWS target classes:", target_coords;

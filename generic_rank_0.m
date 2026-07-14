@@ -72,7 +72,7 @@ end function;
 
 // Check the chosen specialization k = 14.
 k0 := 14;
-ok, witness := GTCondition(k0);
+ok, problematic_factor_if_not_1 := GTCondition(k0);
 print "GT condition at k = 14:", ok;
 assert ok;
 
